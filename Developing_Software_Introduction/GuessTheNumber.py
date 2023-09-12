@@ -13,7 +13,7 @@ def guess(x):
             print('Sorry, guess again, Too high.')
             
     print(f'Wow, congrats, you have guessed the number {random_number} correctly!')
-    print(f'Thesee are all the guesses you have tried:  {AllGuesses}')
+    print(f'These are all the guesses you have tried:  {AllGuesses}')
             
 guess(25)
     
