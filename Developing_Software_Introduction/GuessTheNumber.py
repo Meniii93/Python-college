@@ -5,7 +5,8 @@ def guess(x):
     guess = 0
     AllGuesses = []
     while guess != random_number:
-        guess = int(input(f'Guess a number between 1 and {x}: '))
+        
+        
         AllGuesses.append(guess)
         if guess < random_number:
             print('Sorry, guess again, Too low.')
